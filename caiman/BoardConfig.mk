@@ -25,7 +25,7 @@ include device/google/caimito/device-caimito-common.mk
 include device/google/zumapro/BoardConfig-common.mk
 -include vendor/google_devices/zumapro/prebuilts/BoardConfigVendor.mk
 -include vendor/google_devices/caiman/proprietary/BoardConfigVendor.mk
-include device/google/caimito-sepolicy/caiman-sepolicy.mk
+include device/google/caimito/sepolicy/caiman-sepolicy.mk
 include device/google/caimito/wifi/BoardConfig-wifi.mk
 
 ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
