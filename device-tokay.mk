@@ -50,6 +50,10 @@ endif
 # display
 DEVICE_PACKAGE_OVERLAYS += device/google/caimito/tokay/overlay
 
+# pixeldisplayservice
+PRODUCT_PACKAGES += \
+    PixelDisplayServiceOverlayTokay
+
 ifeq ($(RELEASE_PIXEL_AIDL_AUDIO_HAL),true)
 USE_AUDIO_HAL_AIDL := true
 endif
