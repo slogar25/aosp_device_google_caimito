@@ -30,7 +30,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_tokay.mk \
     $(LOCAL_DIR)/aosp_tokay_fullmte.mk \
     $(LOCAL_DIR)/factory_tokay.mk \
-    $(lOCAL_DIR)/statix_komodo.mk
+    $(LOCAL_DIR)/statix_komodo.mk
 
 COMMON_LUNCH_CHOICES := \
     aosp_caiman-trunk_staging-userdebug \

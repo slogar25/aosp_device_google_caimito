@@ -28,8 +28,8 @@ $(call inherit-product, vendor/statix/config/common.mk)
 $(call inherit-product, vendor/statix/config/gsm.mk)
 
 # Parts
-$(call inherit-product-if-exists, vendor/google/pixelparts/pixelparts.mk)
-$(call inherit-product-if-exists, vendor/google/pixelparts/powershare/device.mk)
+#$(call inherit-product-if-exists, vendor/google/pixelparts/pixelparts.mk)
+#$(call inherit-product-if-exists, vendor/google/pixelparts/powershare/device.mk)
 
 # Normal Shit
 $(call inherit-product, device/google/zumapro/aosp_common.mk)
