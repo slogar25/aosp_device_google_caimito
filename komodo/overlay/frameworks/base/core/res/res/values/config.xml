@@ -218,4 +218,7 @@
     <!-- Package name providing GNSS location support. Used only when
          config_useGnssHardwareProvider is false. -->
     <string name="config_gnssLocationProviderPackageName" translatable="false">com.google.android.gms</string>
+
+    <!-- IWLAN-->
+    <string name="config_qualified_networks_service_package">com.android.qns</string>
 </resources>
