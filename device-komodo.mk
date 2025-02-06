@@ -456,6 +456,10 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     EuiccSupportPixelOverlay
+	
+# Satellite
+PRODUCT_COPY_FILES += \
+    device/google/caimito/conf/allowlist_satellite.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/allowlist_satellite.xml	
 
 # Set support one-handed mode
 PRODUCT_PRODUCT_PROPERTIES += \
