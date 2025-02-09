@@ -15,6 +15,9 @@ $(call inherit-product, device/google/caimito/aosp_komodo.mk)
 $(call inherit-product-if-exists, vendor/google/pixelparts/pixelparts.mk)
 $(call inherit-product-if-exists, vendor/google/pixelparts/powershare/device.mk)
 
+# Pixel Luancher
+INCLUDE_PIXEL_LAUNCHER := true
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := statix_komodo
 PRODUCT_MODEL := Pixel 9 Pro XL
